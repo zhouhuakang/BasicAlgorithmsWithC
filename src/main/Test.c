@@ -8,9 +8,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "../graph/AdjList.h"
+#include "../sort/DirectInsertSort.h"
 
 int main(void) {
-	TestfindFirstAdjNodePostion();
-
+	testDirectInsertSort();
 	return 0;
 }
