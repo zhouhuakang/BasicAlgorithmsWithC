@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../src/sort/BinarySearchSort.c \
 ../src/sort/DirectInsertSort.c 
 
 OBJS += \
+./src/sort/BinarySearchSort.o \
 ./src/sort/DirectInsertSort.o 
 
 C_DEPS += \
+./src/sort/BinarySearchSort.d \
 ./src/sort/DirectInsertSort.d 
 
 

@@ -9,8 +9,9 @@
 #include <stdlib.h>
 #include "../graph/AdjList.h"
 #include "../sort/DirectInsertSort.h"
+#include "../sort/BinarySearchSort.h"
 
 int main(void) {
-	testDirectInsertSort();
+	testBinarySearchSort();
 	return 0;
 }
