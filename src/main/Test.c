@@ -10,8 +10,10 @@
 #include "../graph/AdjList.h"
 #include "../sort/DirectInsertSort.h"
 #include "../sort/BinarySearchSort.h"
+#include "../sort/QuickSort.h"
 
 int main(void) {
-	testBinarySearchSort();
+	TestQsort();
+
 	return 0;
 }
