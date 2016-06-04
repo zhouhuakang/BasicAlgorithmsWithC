@@ -6,17 +6,23 @@
 C_SRCS += \
 ../src/sort/BinarySearchSort.c \
 ../src/sort/DirectInsertSort.c \
-../src/sort/QuickSort.c 
+../src/sort/MergeSort.c \
+../src/sort/QuickSort.c \
+../src/sort/ShellSort.c 
 
 OBJS += \
 ./src/sort/BinarySearchSort.o \
 ./src/sort/DirectInsertSort.o \
-./src/sort/QuickSort.o 
+./src/sort/MergeSort.o \
+./src/sort/QuickSort.o \
+./src/sort/ShellSort.o 
 
 C_DEPS += \
 ./src/sort/BinarySearchSort.d \
 ./src/sort/DirectInsertSort.d \
-./src/sort/QuickSort.d 
+./src/sort/MergeSort.d \
+./src/sort/QuickSort.d \
+./src/sort/ShellSort.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

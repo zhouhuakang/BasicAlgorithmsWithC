@@ -13,7 +13,6 @@
 #include "../sort/QuickSort.h"
 
 int main(void) {
-	TestQsort();
-
+	testMerge();
 	return 0;
 }
